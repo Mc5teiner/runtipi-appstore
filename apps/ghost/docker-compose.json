@@ -2,7 +2,7 @@
   "services": [
     {
       "name": "ghost",
-      "image": "ghost-monorepo:latest",
+      "image": "ghost:latest",
       "dependsOn": ["ghostdb"],
       "internalPort": 2368,
       "environment": [
